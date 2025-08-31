@@ -1,0 +1,83 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+*{
+margin: 0;
+padding: 0;
+}
+/*
+****** FORMATAÇÕES GERAIS ******
+*/
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Gran-
+de', 'Lucida Sans', Arial, sans-serif;
+background-color: #c4c4c4;
+}
+/*
+header formatação
+*/
+.cabecalho {
+background-color: rgb(236, 165, 208);
+height: 100px;
+text-align: center;
+padding-top: 20px;
+Nome do arquivo: style.css
+
+}
+.nome1 {
+color: rgb(255, 0, 157);
+padding-bottom: 20px;
+}
+.link {
+color: rgb(255, 0, 157);
+text-decoration: none;
+padding: 10px;
+}
+.link_ativo{
+background-color: rgb(255, 0, 157);
+color: rgb(236, 165, 208);
+border-radius: 5px;
+padding: 10px;
+}
+.link:hover{
+background-color: rgb(255, 0, 157);
+color: rgb(236, 165, 208);
+border-radius: 5px;
+}
+/*
+****** CONTENT ******
+*/
+.content{
+background-color: white;
+width: 750px;
+height: 400px;
+margin: 0 auto;
+margin-top: 10px;
+border-radius: 15px;
+padding: 15px;
+}
+.foto{
+width: 200px;
+border-radius: 150px;
+}
+.div_img{
+float: left;
+padding: 15px;
+}
+.texto{
+color: rgb(255, 0, 157);
+font-weight: bolder;
+}
+
+.content_ptl{
+background-color: white;
+width: 750px;
+height: auto;
+margin: 0 auto;
+margin-top: 10px;
+border-radius: 5px;
+padding: 15px;
+}
+.descricao{
+color: rgb(255, 0, 157);
+}
